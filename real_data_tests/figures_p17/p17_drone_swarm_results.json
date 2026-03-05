@@ -1,0 +1,19 @@
+{
+  "paper": "P17 \u2014 Bio-Inspired Drone Swarm via Starling Murmuration Dynamics",
+  "real_data_sources": [
+    "GBIF Global Biodiversity Information Facility \u2014 Sturnus vulgaris occurrences",
+    "Vicsek model parameters from: Cavagna et al. (2010), Scale-free correlations in starling flocks, PNAS"
+  ],
+  "citation": "Global Biodiversity Information Facility (2024). GBIF Occurrence Download. https://doi.org/10.15468/dl.xxx",
+  "results": {
+    "gbif_occurrences": {
+      "url": "https://api.gbif.org/v1/occurrence/search?speciesKey=5788984",
+      "n_occurrence_records": 0,
+      "n_georeferenced": 0,
+      "data_region": "United Kingdom"
+    },
+    "vicsek_model": {
+      "error": "insufficient GPS data"
+    }
+  }
+}
